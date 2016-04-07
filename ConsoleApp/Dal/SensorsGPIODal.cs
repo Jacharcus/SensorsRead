@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApp.Dal
 {
-    public class SensorsDal : BaseDal
+    public class SensorsGPIODal : BaseDal
     {
         GetTemperature()
         {

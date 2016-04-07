@@ -44,7 +44,8 @@
   <ItemGroup>
     <Compile Include="Bll\SensorsBll.cs" />
     <Compile Include="Dal\BaseDal.cs" />
-    <Compile Include="Dal\SensorsDal.cs" />
+    <Compile Include="Dal\SensorsGPIODal.cs" />
+    <Compile Include="Dal\SensorsDbDal.cs" />
     <Compile Include="Helpers\Convert.cs" />
     <Compile Include="Interfaces\ISensor.cs" />
     <Compile Include="Model\Sensor.cs" />
