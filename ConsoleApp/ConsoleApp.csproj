@@ -46,7 +46,7 @@
     <Compile Include="Dal\BaseDal.cs" />
     <Compile Include="Dal\SensorsGPIODal.cs" />
     <Compile Include="Dal\SensorsDbDal.cs" />
-    <Compile Include="Helpers\Convert.cs" />
+    <Compile Include="Helpers\Convertor.cs" />
     <Compile Include="Interfaces\ISensor.cs" />
     <Compile Include="Model\Sensor.cs" />
     <Compile Include="Model\TemperatureSensor.cs" />

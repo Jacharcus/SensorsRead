@@ -9,8 +9,7 @@ namespace ConsoleApp.Dal
     {
         GetTemperature()
         {
-            var temp = NewTemperature()
-                Convert.toTe
+          
         }
     }
 }

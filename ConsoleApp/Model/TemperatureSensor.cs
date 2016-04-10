@@ -5,10 +5,11 @@ using System.Text;
 
 namespace ConsoleApp.Model
 {
-    using ConsoleApp.Interfaces;
+    using Interfaces;
     public class TemperatureSensor : Sensor
     {
-        public string GradeType { get; set; }
+        public string GradeType { get; set; };
+
 
     }
 }

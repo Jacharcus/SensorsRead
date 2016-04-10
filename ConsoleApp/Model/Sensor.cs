@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using RaspberryPiDotNet;
 
 namespace ConsoleApp.Model
 {
     using ConsoleApp.Interfaces;
     public class Sensor : ISensor 
     {
-        public string GetValue()
-        {
-            return null;
-        }
+        public int adcNumber { get; set; };
+        public double readADC { get; set; };
     }
 }
