@@ -8,7 +8,7 @@ namespace ConsoleApp.Model
     using Interfaces;
     public class TemperatureSensor : Sensor
     {
-        public string GradeType { get; set; };
+       
 
 
     }

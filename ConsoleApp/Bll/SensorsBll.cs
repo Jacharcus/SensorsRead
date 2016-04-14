@@ -9,10 +9,8 @@ namespace ConsoleApp.Bll
 
     class SensorsBll
     {
-        InsertTemperature()
+        void InsertTemperature()
         {
-            string currentTemperature = SensorsGPIODal.Instance.GetTemperature();
-            SensorsDBDal.InsertTemperature(currentTemperature, DateTime.Now);
         }
     }
 }

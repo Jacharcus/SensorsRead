@@ -8,9 +8,11 @@ namespace ConsoleApp.Interfaces
 {
     public interface ISensor
     {
-        public GPIOMem SPICLK { get; set; };
-        public GPIOMem SPIMISO { get; set; };
-        public GPIOMem SPIMOSI { get; set; };
-        public GPIOMem SPICSl { get; set; };
+        GPIOMem SPICLK { get; set; }
+        GPIOMem SPIMISO { get; set; }
+        GPIOMem SPIMOSI { get; set; }
+        GPIOMem SPICSl { get; set; }
+		int adcNumber { get; set; }
+		double readADC { get; set; }
     }
 }
